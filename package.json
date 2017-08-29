@@ -40,5 +40,10 @@
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@cardstack/ephemeral": "^0.2.4-alpha.1",
+    "@cardstack/hub": "^0.2.4-alpha.1",
+    "@cardstack/jsonapi": "^0.2.4-alpha.1"
+  }
 }
