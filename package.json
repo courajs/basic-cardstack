@@ -42,7 +42,7 @@
   "private": true,
   "dependencies": {
     "@cardstack/ephemeral": "^0.2.4-alpha.1",
-    "@cardstack/hub": "^0.2.4-alpha.1",
+    "@cardstack/hub": "^0.3.0-container-alpha.0",
     "@cardstack/jsonapi": "^0.2.4-alpha.1"
   }
 }
