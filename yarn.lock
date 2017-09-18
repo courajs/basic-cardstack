@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@cardstack/core-types@^0.2.4":
+"@cardstack/core-types@^0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@cardstack/core-types/-/core-types-0.2.8.tgz#53e4557d3d9065e89e0f5c7e25dea79cc09c98ed"
   dependencies:
@@ -13,13 +13,6 @@
     postcss-cssnext "^2.10.0"
     postcss-import "^9.1.0"
 
-"@cardstack/di@0.2.4-alpha.1":
-  version "0.2.4-alpha.1"
-  resolved "https://registry.yarnpkg.com/@cardstack/di/-/di-0.2.4-alpha.1.tgz#75b8d5fff182db308fba9380d1661a95f30c4d4e"
-  dependencies:
-    "@glimmer/di" "^0.2.0"
-    resolve "^1.3.3"
-
 "@cardstack/di@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@cardstack/di/-/di-0.2.4.tgz#7aea90f148fe62b48fa976a1b733d8f8a65b94d5"
@@ -27,7 +20,7 @@
     "@glimmer/di" "^0.2.0"
     resolve "^1.3.3"
 
-"@cardstack/elasticsearch@^0.2.4":
+"@cardstack/elasticsearch@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@cardstack/elasticsearch/-/elasticsearch-0.2.6.tgz#1b7bfbaff967c3c2250a83c5194e079ceb80902b"
   dependencies:
@@ -36,11 +29,11 @@
     elasticsearch "^12.1.3"
 
 "@cardstack/ephemeral@^0.2.4-alpha.1":
-  version "0.2.4-alpha.1"
-  resolved "https://registry.yarnpkg.com/@cardstack/ephemeral/-/ephemeral-0.2.4-alpha.1.tgz#15225be07c730ae89545e7e92f18c30fee7d4b8b"
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@cardstack/ephemeral/-/ephemeral-0.2.7.tgz#0503f614429886b805f58fda5f3cd57121c37aa6"
   dependencies:
-    "@cardstack/di" "0.2.4-alpha.1"
-    "@cardstack/plugin-utils" "0.2.4-alpha.1"
+    "@cardstack/di" "^0.2.4"
+    "@cardstack/plugin-utils" "^0.2.4"
 
 "@cardstack/handlebars@^0.2.4":
   version "0.2.4"
@@ -48,13 +41,13 @@
   dependencies:
     handlebars "^4.0.6"
 
-"@cardstack/hub@^0.3.0-container-alpha.0":
-  version "0.3.0-container-alpha.0"
-  resolved "https://registry.yarnpkg.com/@cardstack/hub/-/hub-0.3.0-container-alpha.0.tgz#ea612d3b5669ceff8769b1e285bcdab226a3245f"
+"@cardstack/hub@^0.2":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@cardstack/hub/-/hub-0.2.8.tgz#2e56db180e560425d891acda20b0481d21d45a50"
   dependencies:
-    "@cardstack/core-types" "^0.2.4"
+    "@cardstack/core-types" "^0.2.8"
     "@cardstack/di" "^0.2.4"
-    "@cardstack/elasticsearch" "^0.2.4"
+    "@cardstack/elasticsearch" "^0.2.6"
     "@cardstack/handlebars" "^0.2.4"
     "@cardstack/plugin-utils" "^0.2.4"
     broccoli-concat "^3.2.2"
@@ -63,34 +56,25 @@
     commander "^2.9.0"
     dag-map "^2.0.2"
     denodeify "^1.2.1"
-    docker-container-id "^1.0.1"
-    ember-cli-babel "^6.0.0"
+    ember-cli-babel "^6.8.2"
     handlebars "^4.0.6"
     jsondiffpatch "^0.2.4"
     koa "2"
     koa-compose "^3.2.1"
-    koa-proxy "^0.9.0"
     lodash "^4.17.4"
     mkdirp "^0.5.1"
-    nssocket "^0.6.0"
     quick-temp "^0.1.8"
     resolve "^1.3.3"
 
 "@cardstack/jsonapi@^0.2.4-alpha.1":
-  version "0.2.4-alpha.1"
-  resolved "https://registry.yarnpkg.com/@cardstack/jsonapi/-/jsonapi-0.2.4-alpha.1.tgz#88d9edd4f67103bcc4d3e2cdb1e88f771a0b0662"
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@cardstack/jsonapi/-/jsonapi-0.2.8.tgz#d0f93ef2e725dbaab852a38e590f7c7df6727fde"
   dependencies:
-    "@cardstack/di" "0.2.4-alpha.1"
-    "@cardstack/plugin-utils" "0.2.4-alpha.1"
+    "@cardstack/di" "^0.2.4"
+    "@cardstack/plugin-utils" "^0.2.4"
     koa-json-body "^5.3.0"
     lodash "^4.17.4"
     qs "^6.4.0"
-
-"@cardstack/plugin-utils@0.2.4-alpha.1":
-  version "0.2.4-alpha.1"
-  resolved "https://registry.yarnpkg.com/@cardstack/plugin-utils/-/plugin-utils-0.2.4-alpha.1.tgz#01e67290e249c342c3bac2c5d6d99e16a122c8ca"
-  dependencies:
-    ms "2.0.0"
 
 "@cardstack/plugin-utils@^0.2.4":
   version "0.2.4"
@@ -244,12 +228,6 @@ align-text@^0.1.1, align-text@^0.1.3:
     kind-of "^3.0.2"
     longest "^1.0.1"
     repeat-string "^1.5.2"
-
-amd-name-resolver@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/amd-name-resolver/-/amd-name-resolver-0.0.6.tgz#d3e4ba2dfcaab1d820c1be9de947c67828cfe595"
-  dependencies:
-    ensure-posix-path "^1.0.1"
 
 amd-name-resolver@0.0.7:
   version "0.0.7"
@@ -1723,12 +1701,6 @@ co-body@^5.0.0:
     raw-body "^2.2.0"
     type-is "^1.6.14"
 
-co-request@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/co-request/-/co-request-0.2.1.tgz#6428c002ad4229b3eda6725022aeccf273bee3fb"
-  dependencies:
-    request "*"
-
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -2018,6 +1990,10 @@ deep-extend@~0.4.0:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
 
+deep-freeze@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/deep-freeze/-/deep-freeze-0.0.1.tgz#3a0b0005de18672819dfd38cd31f91179c893e84"
+
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
@@ -2074,10 +2050,6 @@ diff@^3.2.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.0.tgz#056695150d7aa93237ca7e378ac3b1682b7963b9"
 
-docker-container-id@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/docker-container-id/-/docker-container-id-1.0.1.tgz#851ca4b7d6390551252118fe0f31cb8276dea109"
-
 doctrine@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.0.0.tgz#c73d8d2909d22291e1a007a395804da8b665fe63"
@@ -2131,7 +2103,7 @@ ember-cli-app-version@^3.0.0:
     ember-cli-babel "^6.8.0"
     git-repo-version "0.4.1"
 
-ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1:
+ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1:
   version "6.8.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.8.1.tgz#695f94c57a9375c2a0e219306a41105d6b937991"
   dependencies:
@@ -2148,7 +2120,7 @@ ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, e
     clone "^2.0.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-cli-babel@^6.8.2:
+ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.2:
   version "6.8.2"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.8.2.tgz#eac2785964f4743f4c815cd53c6288f00cc087d7"
   dependencies:
@@ -2367,10 +2339,10 @@ ember-cli-version-checker@^2.0.0:
     semver "^5.3.0"
 
 ember-cli@~2.15.0-beta.2:
-  version "2.15.0-beta.2"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-2.15.0-beta.2.tgz#4d99e0346c738c86525360633a626a424b1e3f78"
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-2.15.1.tgz#773add3cc18e5068f1c5f43a77544efa2712e47b"
   dependencies:
-    amd-name-resolver "0.0.6"
+    amd-name-resolver "0.0.7"
     babel-plugin-transform-es2015-modules-amd "^6.24.0"
     bower-config "^1.3.0"
     bower-endpoint-parser "0.2.2"
@@ -2395,6 +2367,7 @@ ember-cli@~2.15.0-beta.2:
     console-ui "^1.0.2"
     core-object "^3.1.3"
     dag-map "^2.0.2"
+    deep-freeze "^0.0.1"
     diff "^3.2.0"
     ember-cli-broccoli-sane-watcher "^2.0.4"
     ember-cli-is-package-missing "^1.0.0"
@@ -2455,8 +2428,8 @@ ember-cli@~2.15.0-beta.2:
     yam "0.0.22"
 
 ember-data@~2.15.0-beta.2:
-  version "2.15.0-beta.4"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.15.0-beta.4.tgz#1ee765a8f3ac50dcdfddd49ee5ce244cb47ec7a5"
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.15.0.tgz#8d9e308b0312086b2af109ac57e32c3cb7264834"
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-feature-flags "^0.3.1"
@@ -2540,8 +2513,8 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-version-checker "^1.1.6"
 
 ember-source@~2.15.0-beta.2:
-  version "2.15.0-beta.3"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-2.15.0-beta.3.tgz#9149cbc1ba903eda78b807d75649796c5d398a8b"
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-2.15.0.tgz#901cbe3abee09292372b06f6aa8dd342683be2d5"
   dependencies:
     "@glimmer/compiler" "^0.25.3"
     "@glimmer/node" "^0.25.3"
@@ -2815,10 +2788,6 @@ event-emitter@~0.3.5:
   dependencies:
     d "1"
     es5-ext "~0.10.14"
-
-eventemitter2@~0.4.14:
-  version "0.4.14"
-  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-0.4.14.tgz#8f61b75cde012b2e9eb284d4545583b5643b61ab"
 
 eventemitter3@1.x.x:
   version "1.2.0"
@@ -3513,10 +3482,6 @@ iconv-lite@0.4.18, iconv-lite@^0.4.17, iconv-lite@~0.4.13:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
 
-iconv-lite@^0.2.11:
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.2.11.tgz#1ce60a3a57864a292d1321ff4609ca4bb965adc8"
-
 ignore@^3.3.3:
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.5.tgz#c4e715455f6073a8d7e5dae72d2fc9d71663dba6"
@@ -3939,13 +3904,6 @@ koa-json-body@^5.3.0:
   dependencies:
     co-body "^5.0.0"
 
-koa-proxy@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/koa-proxy/-/koa-proxy-0.9.0.tgz#4fd13b0f2eea9be097445bf7b7b4398856a22ef6"
-  dependencies:
-    co-request "^0.2.0"
-    iconv-lite "^0.2.11"
-
 koa@2:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/koa/-/koa-2.3.0.tgz#9e1e8e4da401839c57b8527eadc57f76127555a7"
@@ -3978,10 +3936,6 @@ koa@2:
 lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
-
-lazy@~1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/lazy/-/lazy-1.0.11.tgz#daa068206282542c088288e975c297c1ae77b690"
 
 leek@0.0.24:
   version "0.0.24"
@@ -4676,13 +4630,6 @@ npmlog@^4.0.0, npmlog@^4.0.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
-
-nssocket@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/nssocket/-/nssocket-0.6.0.tgz#59f96f6ff321566f33c70f7dbeeecdfdc07154fa"
-  dependencies:
-    eventemitter2 "~0.4.14"
-    lazy "~1.0.11"
 
 num2fraction@^1.2.2:
   version "1.2.2"
@@ -5469,7 +5416,7 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-request@*, request@^2.81.0:
+request@^2.81.0:
   version "2.81.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
   dependencies:

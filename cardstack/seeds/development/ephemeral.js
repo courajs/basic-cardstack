@@ -1,10 +1,7 @@
 module.exports = [
   {
     type: 'plugin-configs',
-    id: '@cardstack/ephemeral',
-    attributes: {
-      module: '@cardstack/ephemeral'
-    }
+    id: '@cardstack/ephemeral'
   },
   {
     type: 'data-sources',
