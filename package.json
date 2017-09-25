@@ -11,7 +11,7 @@
   "repository": "",
   "scripts": {
     "build": "ember build",
-    "start": "ember server",
+    "start": "CONTAINERIZED_HUB=true DEBUG=cardstack/* ember serve",
     "test": "ember test"
   },
   "devDependencies": {
