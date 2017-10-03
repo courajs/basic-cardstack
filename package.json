@@ -12,6 +12,7 @@
   "scripts": {
     "build": "ember build",
     "start": "CONTAINERIZED_HUB=true DEBUG=cardstack/* ember serve",
+    "persist": "CARDSTACK_LEAVE_SERVICES=true CONTAINERIZED_HUB=true DEBUG=cardstack/* ember serve",
     "test": "ember test"
   },
   "devDependencies": {
@@ -41,8 +42,9 @@
   },
   "private": true,
   "dependencies": {
-    "@cardstack/ephemeral": "^0.2.4-alpha.1",
-    "@cardstack/hub": "0.3.0-container-alpha.2",
-    "@cardstack/jsonapi": "^0.2.4-alpha.1"
+    "@cardstack/codegen": "0.2.11",
+    "@cardstack/ephemeral": "0.2.11",
+    "@cardstack/hub": "container-alpha",
+    "@cardstack/jsonapi": "0.2.11"
   }
 }
