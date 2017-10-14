@@ -13,6 +13,8 @@
     "build": "ember build",
     "start": "CONTAINERIZED_HUB=true DEBUG=cardstack/* ember serve",
     "persist": "CARDSTACK_LEAVE_SERVICES=true CONTAINERIZED_HUB=true DEBUG=cardstack/* ember serve",
+    "hub:build": "CARDSTACK_LEAVE_SERVICES=true CONTAINERIZED_HUB=true DEBUG=cardstack/* ember hub:build",
+    "hub:start": "CARDSTACK_LEAVE_SERVICES=true CONTAINERIZED_HUB=true DEBUG=cardstack/* ember hub:start",
     "test": "ember test"
   },
   "devDependencies": {
