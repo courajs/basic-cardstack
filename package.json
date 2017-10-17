@@ -47,6 +47,7 @@
     "@cardstack/codegen": "0.2.11",
     "@cardstack/ephemeral": "0.2.11",
     "@cardstack/hub": "container-alpha",
-    "@cardstack/jsonapi": "0.2.11"
+    "@cardstack/jsonapi": "0.2.11",
+    "cardstack-dummy-codegen": "^1.0.0"
   }
 }

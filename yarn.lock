@@ -1618,6 +1618,10 @@ cardinal@^1.0.0:
     ansicolors "~0.2.1"
     redeyed "~1.0.0"
 
+cardstack-dummy-codegen@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/cardstack-dummy-codegen/-/cardstack-dummy-codegen-1.0.0.tgz#c820ec07ae473c8d72334ac1449eba9796578227"
+
 caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
